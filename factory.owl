@@ -1,0 +1,2294 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/george/ontologies/2018/2/factory#"
+     xml:base="http://www.semanticweb.org/george/ontologies/2018/2/factory"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#time -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#time"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#hasEquipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasEquipment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#hasMachine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasMachine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#hasPersonnel -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasPersonnel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#hasProdLine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasProdLine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#isAvailable -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#isAvailable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#producedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#producedIn"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresMaterial -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresMaterial"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresPart -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresPart"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#inventoryUnitsOf -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#inventoryUnitsOf">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#isAvailable -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#isAvailable">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial3">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial4">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial5 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial5">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#produceUnitsProd1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#produceUnitsProd1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#produceUnitsProd2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#produceUnitsProd2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial3">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial4 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial4">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial5 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial5">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart3">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart3">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimeProd1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimeProd1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimeProd2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimeProd2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart3">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimeProd1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimeProd1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimeProd2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimeProd2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart3">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsProd1 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsProd1">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsProd2 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsProd2">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Factory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Factory">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasProdLine"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#isAvailable"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Material -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Order -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial3"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial4"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#orderUnitsMaterial5"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Part -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#producedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresMaterial"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresPart"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial1"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial2"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial3"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial4"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial5"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart1"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart2"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart3"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#inventoryUnitsOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#produceUnitsProd1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#produceUnitsProd2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasEquipment"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasMachine"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#hasPersonnel"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Product -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Product">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#producedIn"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresMaterial"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiresPart"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial1"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial2"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial3"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial4"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfMaterial5"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart1"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart2"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#requiredUnitsOfPart3"/>
+                        <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                        <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#inventoryUnitsOf"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimePart3"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimePart3"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimeProd1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedEndTimeProd2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimeProd1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedStartTimeProd2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#time"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsPart3"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsProd1"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#schedUnitsProd2"/>
+                        <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Warehouse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Warehouse"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#E11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#E11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#E12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#E12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#E13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#E13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#E14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#E14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Equipment"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay104">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay107">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay109">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay113">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay115">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay116">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay117 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay117">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay120">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay121">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay122">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay124">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay125 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay125">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay126 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay126">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay127 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay127">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay128 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay128">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay129 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay129">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#EDay130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Event"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#F1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#F1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Factory"/>
+        <hasProdLine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L11"/>
+        <hasProdLine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#L11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#L11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine"/>
+        <hasEquipment rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#E11"/>
+        <hasEquipment rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#E13"/>
+        <hasMachine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#M11"/>
+        <hasMachine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#M12"/>
+        <hasPersonnel rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#P11"/>
+        <hasPersonnel rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#P12"/>
+        <hasPersonnel rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#P13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#L12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#L12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#ProdLine"/>
+        <hasEquipment rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#E12"/>
+        <hasEquipment rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#E14"/>
+        <hasMachine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#M13"/>
+        <hasMachine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#M14"/>
+        <hasMachine rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#M15"/>
+        <hasPersonnel rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#P14"/>
+        <hasPersonnel rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#P15"/>
+        <hasPersonnel rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#P16"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#M11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#M11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#M12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#M12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#M13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#M13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#M14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#M14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#M15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#M15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Machine"/>
+        <isAvailable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isAvailable>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Material"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay104">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay107">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay109">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay113">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay115">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay116">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay117 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay117">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay120">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay121">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay122">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay124">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay125 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay125">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay126 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay126">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay127 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay127">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay128 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay128">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay129 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay129">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#ODay130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Order"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#P11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#P11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#P12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#P12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#P13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#P13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#P14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#P14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#P15 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#P15">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#P16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#P16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Personnel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay104">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay107">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay109">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay113">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay115">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay116">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay117 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay117">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay120">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay121">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay122">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay124">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay125 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay125">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay126 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay126">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay127 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay127">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay128 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay128">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay129 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay129">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#PDay130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Plan"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Part1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part"/>
+        <producedIn rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L12"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat3"/>
+        <requiresPart rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part2"/>
+        <inventoryUnitsOf rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</inventoryUnitsOf>
+        <requiredUnitsOfMaterial1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial1>
+        <requiredUnitsOfMaterial2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial2>
+        <requiredUnitsOfMaterial3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</requiredUnitsOfMaterial3>
+        <requiredUnitsOfMaterial4 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial4>
+        <requiredUnitsOfMaterial5 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial5>
+        <requiredUnitsOfPart1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart1>
+        <requiredUnitsOfPart2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</requiredUnitsOfPart2>
+        <requiredUnitsOfPart3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart3>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Part2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part"/>
+        <producedIn rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L11"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat2"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat3"/>
+        <inventoryUnitsOf rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</inventoryUnitsOf>
+        <requiredUnitsOfMaterial1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial1>
+        <requiredUnitsOfMaterial2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</requiredUnitsOfMaterial2>
+        <requiredUnitsOfMaterial3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</requiredUnitsOfMaterial3>
+        <requiredUnitsOfMaterial4 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial4>
+        <requiredUnitsOfMaterial5 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial5>
+        <schedUnitsPart1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</schedUnitsPart1>
+        <schedUnitsPart2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</schedUnitsPart2>
+        <schedUnitsPart3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</schedUnitsPart3>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Part3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part"/>
+        <producedIn rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L11"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat4"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat5"/>
+        <inventoryUnitsOf rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</inventoryUnitsOf>
+        <requiredUnitsOfMaterial1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial1>
+        <requiredUnitsOfMaterial2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial2>
+        <requiredUnitsOfMaterial3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial3>
+        <requiredUnitsOfMaterial4 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</requiredUnitsOfMaterial4>
+        <requiredUnitsOfMaterial5 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</requiredUnitsOfMaterial5>
+        <requiredUnitsOfPart1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart1>
+        <requiredUnitsOfPart2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart2>
+        <requiredUnitsOfPart3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart3>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Prod1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Prod1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Product"/>
+        <producedIn rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L12"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat1"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat2"/>
+        <requiresPart rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part1"/>
+        <inventoryUnitsOf rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</inventoryUnitsOf>
+        <requiredUnitsOfMaterial1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</requiredUnitsOfMaterial1>
+        <requiredUnitsOfMaterial2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</requiredUnitsOfMaterial2>
+        <requiredUnitsOfMaterial3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial3>
+        <requiredUnitsOfMaterial4 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial4>
+        <requiredUnitsOfMaterial5 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfMaterial5>
+        <requiredUnitsOfPart1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</requiredUnitsOfPart1>
+        <requiredUnitsOfPart2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart2>
+        <requiredUnitsOfPart3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart3>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#Prod2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#Prod2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Product"/>
+        <producedIn rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#L11"/>
+        <requiresMaterial rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Mat3"/>
+        <requiresPart rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part2"/>
+        <requiresPart rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Part3"/>
+        <inventoryUnitsOf rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</inventoryUnitsOf>
+        <orderUnitsMaterial1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</orderUnitsMaterial1>
+        <orderUnitsMaterial2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</orderUnitsMaterial2>
+        <orderUnitsMaterial3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</orderUnitsMaterial3>
+        <orderUnitsMaterial4 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</orderUnitsMaterial4>
+        <orderUnitsMaterial5 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</orderUnitsMaterial5>
+        <requiredUnitsOfPart1 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</requiredUnitsOfPart1>
+        <requiredUnitsOfPart2 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</requiredUnitsOfPart2>
+        <requiredUnitsOfPart3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</requiredUnitsOfPart3>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1101 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1101">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1102 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1102">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1103 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1103">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1104 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1104">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1105 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1105">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1106 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1106">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1107 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1107">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1109 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1109">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1110 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1110">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1113 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1113">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1114 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1114">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1115 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1115">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1116 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1116">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1117 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1117">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1118 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1118">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1119 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1119">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1120 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1120">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1121">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1122">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1124">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1125 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1125">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1126 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1126">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1127 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1127">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1128 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1128">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1129 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1129">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1201 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1201">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1202 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1202">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1203 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1203">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1204 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1204">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1206 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1206">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1207 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1207">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1208 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1208">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1209 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1209">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1210 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1210">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1211">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1212 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1212">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1213 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1213">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1214 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1214">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1215 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1215">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1216 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1216">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1217 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1217">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1218 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1218">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1219 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1219">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1220 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1220">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1221 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1221">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1222 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1222">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1223 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1223">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1224 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1224">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1225 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1225">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1226 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1226">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1227 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1227">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1228 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1228">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1229 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1229">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1230 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#SDay1230">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Schedule"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#W1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#W1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Warehouse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#W2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#W2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Warehouse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/george/ontologies/2018/2/factory#W3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/george/ontologies/2018/2/factory#W3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/george/ontologies/2018/2/factory#Warehouse"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
